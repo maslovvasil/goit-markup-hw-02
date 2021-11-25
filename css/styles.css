@@ -1,9 +1,140 @@
 :root {
 
+    --text-color-primary:#212121;
+    --text-color-secondary:#757575;
+
+    --font-primary: Roboto;
+    --font-secondary: Raleway;
+}
+body {
+    font-family:var(--font-primary);
+    color:var(--text-color-primary)
 }
 a {
     text-decoration: none;
-}
-ul ol {
+  }
+ul, ol {
     list-style: none;
+   }
+.logo {
+    color: #000000;
+}
+.web {
+    color: #2196F3;
+    font-family: Raleway, sans-serif;
+}
+.logo:hover,
+.logo:focus {
+    color: #2196F3;
+}
+.nav-link { 
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.nav-link:hover,
+.nav-link:focus  {
+    color: #2196F3;
+}
+.kontacts
+ {
+    color: #212121;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.kontacts:hover,
+.kontacts:focus {
+    color: #2196F3;
+}
+.hero {
+    background-color: #2F303A;
+}
+.hero-idea {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+
+}
+.btn {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.btn:hover,
+.btn:focus {
+    color: #2196F3;
+    background-color: #FFFFFF;
+}
+button {
+    color: #212121;
+    background-color: #F5F4FA;
+} 
+button:hover,
+button:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.feature-idea {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: left;
+}
+.feature {
+    color: #757575;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: left;
+
+}
+.team-names {  
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+.team-job { 
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+.footer {
+    background-color: #2F303A;
+}
+.footer-logo {
+    font-family: Raleway, sans-serif;
+    color:  #FFFFFF;
+}
+.wb {
+    color: #2196F3;
+}
+.footer-logo:hover,
+.footer-logo:focus 
+{
+   color: #2196F3 
+}
+.address {
+    color: #FFFFFF;
+    font-style: normal;
+}
+.contacts {
+    color: #757575;
+    font-style: normal;
+}
+.address:hover,
+.address:focus   {
+   color: #2196F3;
+}
+.contacts:hover,
+.contacts:focus {
+   color: #2196F3;
 }
