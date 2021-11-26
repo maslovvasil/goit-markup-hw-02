@@ -2,7 +2,7 @@
 
     --text-color-primary:#212121;
     --text-color-secondary:#757575;
-
+    --text-color-accent: #2196F3;
     --font-primary: Roboto;
     --font-secondary: Raleway;
 }
@@ -22,14 +22,14 @@ ul, ol {
    }
 .logo {
     color: #000000;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 
 }
 .web {
-    color: #2196F3;
+    color: var(--text-color-accent);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -47,32 +47,32 @@ ul, ol {
 }
 .studio:focus,
 .studio:hover {
-    color: #2196F3;
+    color: var(--text-color-accent);
 }
 .logo:hover,
 .logo:focus {
-    color: #2196F3;
+    color: var(--text-color-accent);
 }
 .nav-link { 
-    color: #212121;
+    color: var(--text-color-primary);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 }
 .nav-link:hover,
 .nav-link:focus  {
-    color: #2196F3;
+    color: var(--text-color-accent);
 }
 .kontacts
  {
-    color: #757575;
+    color: var(--text-color-secondary);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 }
 .kontacts:hover,
 .kontacts:focus {
-    color: #2196F3;
+    color: var(--text-color-accent);
 }
 .hero {
     background-color: #2F303A;
@@ -85,23 +85,24 @@ ul, ol {
     text-align: center;
 
 }
-.btn {
+.service {
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: var(--text-color-accent);
+    cursor: pointer;
 }
-.btn:hover,
-.btn:focus {
-    color: #2196F3;
+.service:hover,
+.service:focus {
+    color: var(--text-color-accent);
     background-color: #FFFFFF;
 }
-button {
-    color: #212121;
-    background-color: #F5F4FA;
-} 
-button:hover,
-button:focus {
-    color: #FFFFFF;
-    background-color: #2196F3;
+h1 {
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 h2 {
 font-weight: 700;
@@ -111,44 +112,52 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 .feature-idea {
-    color: #212121;
+    color: var(--text-color-primary);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
 .feature {
-    color: #757575;
-    font-weight: 400;
+    color: var(--text-color-secondary);
     font-size: 14px;
     line-height: 1.71;
     text-transform: uppercase;
 
 } 
 .team-names {  
-    color: #212121;
+    color: var(--text-color-primary);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
 }
 .team-job { 
-    color: #757575;
-    font-weight: 400;
+    color: var(--text-color-secondary);
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
 }
+.care {
+    color: var(--text-color-primary);
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+.care:hover,
+.care:focus {
+    color: #FFFFFF;
+    background-color: var(--text-color-accent);
+}
+/*
 .products-name {
     color: #212121;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-}
+}*/
 .products-trait {
-    color: #757575;
-    font-weight: 400;
+    color: var(--text-color-secondary);
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
@@ -167,10 +176,10 @@ letter-spacing: 0.03em;
 
 }
 .wb {
-    color: #2196F3;
+    color: var(--text-color-accent);
     font-family: Raleway;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -179,29 +188,27 @@ letter-spacing: 0.03em;
 .footer-logo:hover,
 .footer-logo:focus 
 {
-   color: #2196F3 
+   color: var(--text-color-accent); 
 }
 .address {
     color: #FFFFFF;
     font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .contacts {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
 }
 .address:hover,
 .address:focus   {
-   color: #2196F3;
+   color: var(--text-color-accent);
 }
 .contacts:hover,
 .contacts:focus {
-   color: #2196F3;
+   color: var(--text-color-accent);
 }
