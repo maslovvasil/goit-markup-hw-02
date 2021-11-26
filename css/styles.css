@@ -76,6 +76,7 @@ ul, ol {
 }
 .hero {
     background-color: #2F303A;
+    text-align: center;
 }
 .hero-idea {
     color: #FFFFFF;
